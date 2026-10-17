@@ -1,0 +1,1 @@
+export function normaliseModel(model) { return ['gemini-3.8-flash','gemini-3.6-flash','gemini-2.5-flash'].includes(model) ? model : 'gemini-3.8-flash'; }
