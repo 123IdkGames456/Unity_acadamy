@@ -54,7 +54,7 @@ function sheet_() {
 function readData_() {
   const sh = sheet_();
   const values = sh.getDataRange().getValues();
-  const out = {};
+  const out = { _hasData: values.length > 1 };
   for (let i = 1; i < values.length; i++) {
     const key = String(values[i][0] || '');
     const raw = String(values[i][2] || '');
