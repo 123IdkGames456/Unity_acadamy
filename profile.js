@@ -1,0 +1,1 @@
+export function assessLevel(selected, answer) { if (answer === 'unknown' && selected === 'Beginner') return 'Complete beginner'; if (answer === 'stores' && selected === 'Complete beginner') return 'Beginner'; return selected; }
