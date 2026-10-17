@@ -1,0 +1,1 @@
+export function pinnedNoteTitle(text) { const value = String(text || '').split(String.fromCharCode(10)).join(' ').trim(); return value.slice(0, 60) || 'Pinned AI answer'; }
