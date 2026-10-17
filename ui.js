@@ -1,0 +1,1 @@
+export function statusClass(type) { return 'status' + (type ? ' ' + type : ''); }
