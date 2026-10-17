@@ -1,0 +1,1 @@
+export function safeParse(raw,fallback){try{return JSON.parse(raw)}catch(e){return fallback}}
