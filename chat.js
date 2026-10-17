@@ -1,0 +1,1 @@
+export function recentChatSummary(chat) { return (chat || []).slice(-30).map(function(m){ return (m.role === 'user' ? 'User' : 'Coach') + ': ' + m.text; }).join(String.fromCharCode(10)); }
